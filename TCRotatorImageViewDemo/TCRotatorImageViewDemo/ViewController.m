@@ -34,9 +34,13 @@
                                  @"4.jpg"
                                  ];
     
-    CGRect frame = CGRectMake(0, 100, self.view.bounds.size.width, 200);
+    CGRect frame = CGRectMake(0, 64, self.view.bounds.size.width, 200);
     TCRotatorImageView *rotatorImageView = [TCRotatorImageView rotatorImageViewWithFrame:frame imageURLStrigArray:imageUrlStrings placeholerImage:nil];
     rotatorImageView.delegate = self;
+    rotatorImageView.pageIndicatorColor = [UIColor whiteColor];
+    rotatorImageView.currentPageIndicatorColor = [UIColor greenColor];
+    rotatorImageView.hidesForSinglePage = YES;
+    rotatorImageView.rotateTimeInterval = 3.0f;
     [self.view addSubview:rotatorImageView];
     
     
