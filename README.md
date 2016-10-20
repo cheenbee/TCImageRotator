@@ -39,5 +39,6 @@ TCRotatorImageView *rotatorImageView = [TCRotatorImageView rotatorImageViewWithF
 @property (nonatomic, strong) UIColor *pageIndicatorColor;
 ```
 
-
+##### 最好用的图片轮播器
+[SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView)
 
