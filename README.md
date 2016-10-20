@@ -1,6 +1,6 @@
 # TCRotatorImageView
 无限循环图片轮播器
-
+![demo-w320](http://obr2ozlb6.bkt.clouddn.com/gif/TCRotatorImageView/rotateDemo.gif)
 
  
 #### usage 

@@ -158,11 +158,38 @@ static const NSInteger kInfiniteLoopMultiple = 1000;
     [self setAutoScroll:self.isAutoScroll];
 }
 
+- (void)setPageIndicatorColor:(UIColor *)pageIndicatorColor {
+    _pageIndicatorColor = pageIndicatorColor;
+    self.pageControll.pageIndicatorTintColor = pageIndicatorColor;
+}
+
+- (void)setCurrentPageIndicatorColor:(UIColor *)currentPageIndicatorColor {
+    _currentPageIndicatorColor = currentPageIndicatorColor;
+    self.pageControll.currentPageIndicatorTintColor = currentPageIndicatorColor;
+}
+
+- (void)setInfiniteLoopMode:(BOOL)infiniteLoopMode {
+    _infiniteLoopMode = infiniteLoopMode;
+    
+    if (self.imagePathsArray.count) {
+        self.imagePathsArray = self.imagePathsArray;
+    }
+}
+
+- (void)setHidesForSinglePage:(BOOL)hidesForSinglePage {
+    _hidesForSinglePage= hidesForSinglePage;
+    
+    if (self.imagePathsArray.count == 1 && hidesForSinglePage) {
+        [self setupPageControl];
+    }
+}
+
 #pragma mark - inner actions
 
 - (void)setupPageControl {
+    if (_pageControll) [_pageControll removeFromSuperview];
     
-    if (self.imagePathsArray.count == 0 && self.isHidesForSinglePage) return;
+    if (self.imagePathsArray.count == 1 && self.isHidesForSinglePage) return;
     
     self.pageControll.numberOfPages = self.imagePathsArray.count;;
     self.pageControll.currentPage = [self pageControlIndexWithCurrentItemIndex:[self currentItemIndex]];
