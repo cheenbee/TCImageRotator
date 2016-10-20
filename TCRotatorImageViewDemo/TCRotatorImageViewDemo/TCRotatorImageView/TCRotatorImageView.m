@@ -2,8 +2,8 @@
 //  TCRotatorImageView.m
 //  ScrollInfinite
 //
-//  Created by 艾呦呦 on 16/10/17.
-//  Copyright © 2016年 艾呦呦. All rights reserved.
+//  Created by cheenbee on 16/10/17.
+//  Copyright © 2016年 cheenbee. All rights reserved.
 //
 
 #import "TCRotatorImageView.h"
@@ -255,14 +255,12 @@ static const NSInteger kInfiniteLoopMultiple = 1000;
     if ([self.delegate respondsToSelector:@selector(rotatorImageView:didClickImageIndex:)]) {
         [self.delegate rotatorImageView:self didClickImageIndex:indexPath.item % self.imagePathsArray.count];
     }
-    NSLog(@"点击了第%ld个item",indexPath.item%self.imagePathsArray.count);
+    
 }
 
 #pragma mark - UIScrollViewDelegate
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    NSLog(@"currentItemIndex -- %ld", [self currentItemIndex]);
-    
     NSInteger currentPage = [self pageControlIndexWithCurrentItemIndex:[self currentItemIndex]];
     self.pageControll.currentPage = currentPage;
 }

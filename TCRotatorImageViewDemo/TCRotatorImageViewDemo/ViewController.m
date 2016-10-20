@@ -2,14 +2,14 @@
 //  ViewController.m
 //  TCRotatorImageViewDemo
 //
-//  Created by 艾呦呦 on 16/10/19.
+//  Created by cheenbee on 16/10/19.
 //  Copyright © 2016年 none. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "TCRotatorImageView.h"
 
-@interface ViewController ()
+@interface ViewController ()<TCRotatorImageViewDelegate>
 
 @end
 
@@ -36,13 +36,21 @@
     
     CGRect frame = CGRectMake(0, 100, self.view.bounds.size.width, 200);
     TCRotatorImageView *rotatorImageView = [TCRotatorImageView rotatorImageViewWithFrame:frame imageURLStrigArray:imageUrlStrings placeholerImage:nil];
+    rotatorImageView.delegate = self;
     [self.view addSubview:rotatorImageView];
     
     
     CGRect frame1 = CGRectMake(0, 320, self.view.bounds.size.width, 200);
     TCRotatorImageView *rotatorImageView1 = [TCRotatorImageView rotatorImageViewWithFrame:frame1 imageNameArray:localImageNames];
+    rotatorImageView1.delegate = self;
     [self.view addSubview:rotatorImageView1];
     
+}
+
+#pragma mark - TCRotatorImageViewDelegate
+
+- (void)rotatorImageView:(TCRotatorImageView *)rotatorImageView didClickImageIndex:(NSInteger)index {
+    NSLog(@"点击了第%ld张图片", index);
 }
 
 - (void)didReceiveMemoryWarning {

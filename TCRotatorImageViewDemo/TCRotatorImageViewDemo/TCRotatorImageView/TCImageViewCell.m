@@ -2,8 +2,8 @@
 //  TCImageViewCell.m
 //  ScrollInfinite
 //
-//  Created by 艾呦呦 on 16/10/17.
-//  Copyright © 2016年 艾呦呦. All rights reserved.
+//  Created by cheenbee on 16/10/17.
+//  Copyright © 2016年 cheenbee. All rights reserved.
 //
 
 #import "TCImageViewCell.h"
@@ -22,6 +22,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         _imageView = [[UIImageView alloc] init];
+        _imageView.contentMode = UIViewContentModeScaleAspectFill;
         [self.contentView addSubview:_imageView];
     }
     return self;

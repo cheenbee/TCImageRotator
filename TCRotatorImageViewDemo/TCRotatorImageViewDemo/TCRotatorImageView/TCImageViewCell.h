@@ -2,8 +2,8 @@
 //  TCImageViewCell.h
 //  ScrollInfinite
 //
-//  Created by 艾呦呦 on 16/10/17.
-//  Copyright © 2016年 艾呦呦. All rights reserved.
+//  Created by cheenbee on 16/10/17.
+//  Copyright © 2016年 cheenbee. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
