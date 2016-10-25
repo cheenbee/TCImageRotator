@@ -1,10 +1,23 @@
 # TCRotatorImageView
+[![CI Status](http://img.shields.io/travis/cheenbee/TCRotatorImageView.svg?style=flat)](https://travis-ci.org/cheenbee/TCRotatorImageView)
+[![Version](https://img.shields.io/cocoapods/v/TCRotatorImageView.svg?style=flat)](http://cocoapods.org/pods/TCRotatorImageView)
+[![License](https://img.shields.io/cocoapods/l/TCRotatorImageView.svg?style=flat)](http://cocoapods.org/pods/TCRotatorImageView)
+[![Platform](https://img.shields.io/cocoapods/p/TCRotatorImageView.svg?style=flat)](http://cocoapods.org/pods/TCRotatorImageView)     
 无限循环图片轮播器
 ![demo](http://obr2ozlb6.bkt.clouddn.com/gif/TCRotatorImageView/demo.gif)
 
+## Installation
+
+TCRotatorImageView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```
+pod "TCRotatorImageView"
+```
+或者将 TCRotatorImageView 文件夹拖入工程中
  
-#### usage 
-将 TCRotatorImageView 文件夹拖入工程中
+#### Usage 
+
 
 ```
 //网络加载图片轮播器
@@ -39,6 +52,6 @@ TCRotatorImageView *rotatorImageView = [TCRotatorImageView rotatorImageViewWithF
 @property (nonatomic, strong) UIColor *pageIndicatorColor;
 ```
 
-##### 最好用的图片轮播器
+##### 参考自最好用的图片轮播器
 [SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView)
 
