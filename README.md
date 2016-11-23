@@ -1,5 +1,4 @@
 # TCRotatorImageView
-[![CI Status](http://img.shields.io/travis/cheenbee/TCRotatorImageView.svg?style=flat)](https://travis-ci.org/cheenbee/TCRotatorImageView)
 [![Version](https://img.shields.io/cocoapods/v/TCRotatorImageView.svg?style=flat)](http://cocoapods.org/pods/TCRotatorImageView)
 [![License](https://img.shields.io/cocoapods/l/TCRotatorImageView.svg?style=flat)](http://cocoapods.org/pods/TCRotatorImageView)
 [![Platform](https://img.shields.io/cocoapods/p/TCRotatorImageView.svg?style=flat)](http://cocoapods.org/pods/TCRotatorImageView)     
