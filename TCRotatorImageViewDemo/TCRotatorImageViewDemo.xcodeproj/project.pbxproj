@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3416129A1E2DE6F500F972DD /* TCImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 341612971E2DE6F500F972DD /* TCImageViewCell.m */; };
+		3416129B1E2DE6F500F972DD /* TCRotatorImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 341612991E2DE6F500F972DD /* TCRotatorImageView.m */; };
 		343EF8881DB7706A0080F710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 343EF8871DB7706A0080F710 /* main.m */; };
 		343EF88B1DB7706A0080F710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 343EF88A1DB7706A0080F710 /* AppDelegate.m */; };
 		343EF88E1DB7706A0080F710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343EF88D1DB7706A0080F710 /* ViewController.m */; };
 		343EF8911DB7706A0080F710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343EF88F1DB7706A0080F710 /* Main.storyboard */; };
 		343EF8931DB7706A0080F710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343EF8921DB7706A0080F710 /* Assets.xcassets */; };
 		343EF8961DB7706A0080F710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343EF8941DB7706A0080F710 /* LaunchScreen.storyboard */; };
-		343EF8A41DB771040080F710 /* TCImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 343EF8A11DB771040080F710 /* TCImageViewCell.m */; };
-		343EF8A51DB771040080F710 /* TCRotatorImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 343EF8A31DB771040080F710 /* TCRotatorImageView.m */; };
 		343EF8C81DB7718C0080F710 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 343EF8A81DB7718C0080F710 /* MKAnnotationView+WebCache.m */; };
 		343EF8C91DB7718C0080F710 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 343EF8AA1DB7718C0080F710 /* NSData+ImageContentType.m */; };
 		343EF8CA1DB7718C0080F710 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 343EF8AC1DB7718C0080F710 /* SDImageCache.m */; };
@@ -38,6 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341612961E2DE6F500F972DD /* TCImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCImageViewCell.h; sourceTree = "<group>"; };
+		341612971E2DE6F500F972DD /* TCImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCImageViewCell.m; sourceTree = "<group>"; };
+		341612981E2DE6F500F972DD /* TCRotatorImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRotatorImageView.h; sourceTree = "<group>"; };
+		341612991E2DE6F500F972DD /* TCRotatorImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRotatorImageView.m; sourceTree = "<group>"; };
 		343EF8831DB7706A0080F710 /* TCRotatorImageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCRotatorImageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		343EF8871DB7706A0080F710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		343EF8891DB7706A0080F710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,10 +52,6 @@
 		343EF8921DB7706A0080F710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		343EF8951DB7706A0080F710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		343EF8971DB7706A0080F710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		343EF8A01DB771040080F710 /* TCImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCImageViewCell.h; sourceTree = "<group>"; };
-		343EF8A11DB771040080F710 /* TCImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCImageViewCell.m; sourceTree = "<group>"; };
-		343EF8A21DB771040080F710 /* TCRotatorImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRotatorImageView.h; sourceTree = "<group>"; };
-		343EF8A31DB771040080F710 /* TCRotatorImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRotatorImageView.m; sourceTree = "<group>"; };
 		343EF8A71DB7718C0080F710 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		343EF8A81DB7718C0080F710 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		343EF8A91DB7718C0080F710 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -102,6 +102,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341612951E2DE6F500F972DD /* TCRotatorImageView */ = {
+			isa = PBXGroup;
+			children = (
+				341612961E2DE6F500F972DD /* TCImageViewCell.h */,
+				341612971E2DE6F500F972DD /* TCImageViewCell.m */,
+				341612981E2DE6F500F972DD /* TCRotatorImageView.h */,
+				341612991E2DE6F500F972DD /* TCRotatorImageView.m */,
+			);
+			name = TCRotatorImageView;
+			path = ../../TCRotatorImageView;
+			sourceTree = "<group>";
+		};
 		343EF87A1DB7706A0080F710 = {
 			isa = PBXGroup;
 			children = (
@@ -121,8 +133,8 @@
 		343EF8851DB7706A0080F710 /* TCRotatorImageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				341612951E2DE6F500F972DD /* TCRotatorImageView */,
 				343EF8A61DB7718C0080F710 /* SDWebImage */,
-				343EF89F1DB771040080F710 /* TCRotatorImageView */,
 				343EF8891DB7706A0080F710 /* AppDelegate.h */,
 				343EF88A1DB7706A0080F710 /* AppDelegate.m */,
 				343EF88C1DB7706A0080F710 /* ViewController.h */,
@@ -143,17 +155,6 @@
 				343EF8871DB7706A0080F710 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		343EF89F1DB771040080F710 /* TCRotatorImageView */ = {
-			isa = PBXGroup;
-			children = (
-				343EF8A01DB771040080F710 /* TCImageViewCell.h */,
-				343EF8A11DB771040080F710 /* TCImageViewCell.m */,
-				343EF8A21DB771040080F710 /* TCRotatorImageView.h */,
-				343EF8A31DB771040080F710 /* TCRotatorImageView.m */,
-			);
-			path = TCRotatorImageView;
 			sourceTree = "<group>";
 		};
 		343EF8A61DB7718C0080F710 /* SDWebImage */ = {
@@ -286,10 +287,8 @@
 				343EF8D61DB7718C0080F710 /* UIImageView+WebCache.m in Sources */,
 				343EF8D41DB7718C0080F710 /* UIImage+WebP.m in Sources */,
 				343EF8D01DB7718C0080F710 /* SDWebImagePrefetcher.m in Sources */,
-				343EF8A41DB771040080F710 /* TCImageViewCell.m in Sources */,
 				343EF8CC1DB7718C0080F710 /* SDWebImageDecoder.m in Sources */,
 				343EF8CD1DB7718C0080F710 /* SDWebImageDownloader.m in Sources */,
-				343EF8A51DB771040080F710 /* TCRotatorImageView.m in Sources */,
 				343EF8CF1DB7718C0080F710 /* SDWebImageManager.m in Sources */,
 				343EF8D71DB7718C0080F710 /* UIView+WebCacheOperation.m in Sources */,
 				343EF8D11DB7718C0080F710 /* UIButton+WebCache.m in Sources */,
@@ -300,6 +299,8 @@
 				343EF8CB1DB7718C0080F710 /* SDWebImageCompat.m in Sources */,
 				343EF8C91DB7718C0080F710 /* NSData+ImageContentType.m in Sources */,
 				343EF8881DB7706A0080F710 /* main.m in Sources */,
+				3416129B1E2DE6F500F972DD /* TCRotatorImageView.m in Sources */,
+				3416129A1E2DE6F500F972DD /* TCImageViewCell.m in Sources */,
 				343EF8C81DB7718C0080F710 /* MKAnnotationView+WebCache.m in Sources */,
 				343EF8CA1DB7718C0080F710 /* SDImageCache.m in Sources */,
 			);
